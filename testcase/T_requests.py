@@ -1,6 +1,6 @@
 import requests
-
-r = requests.get("http://www.4399.com")
+url = "http://www.4399.com"
+r = requests.get(url)
 
 print(r.status_code)
 print("--------------")

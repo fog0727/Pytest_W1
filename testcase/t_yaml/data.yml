@@ -1,0 +1,54 @@
+
+#字段
+#{name:"test_yaml",result:"sucess"}
+#name: "test_yaml"
+#result: "sucess"
+
+#列表
+#  ["a","b","c"]
+#  - "a"
+#  - "b"
+#  - "c"
+
+#字典嵌套字典
+#{person1:{"name":"xiaoming","age":"16"}
+#person2:{"name":"xiaoling","age":"12"}
+#}
+#person1:
+#  name: xiaoming
+#  age: 16
+#person2:
+#  name: xiaoling
+#  age: 16
+
+#字典嵌套列表
+#{person1:["a","b","c"]
+#person1:
+#  - "a"
+#  - "b"
+#  - "c"
+
+#列表嵌套列表
+#[["a","b","c"],["1","2","3"]]
+#-
+#  - "a"
+#  - "b"
+#  - "c"
+#-
+#  - "1"
+#  - "2"
+#  - "3"
+
+#列表嵌套字典
+#[{"username":"haha"},{"password":"123456","age":"123"}]
+#- username: 我试试
+#- password: 123456
+#  age: 123
+
+#读取多个文档
+---
+"用户名称1": "wpj111"
+"用户密码2": "wpj1111"
+---
+"用户名称2": "wpj222"
+"用户密码2": "wpj2222"
