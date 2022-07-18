@@ -1,0 +1,5 @@
+2022-07-18 17:53:08,575 log_file_demo INFO this info
+2022-07-18 17:55:38,123 log_file_demo INFO this info
+2022-07-18 17:56:51,091 log_file_demo INFO this info
+2022-07-18 17:56:51,092 log_file_demo DEBUG this debug
+2022-07-18 17:56:51,092 log_file_demo WARNING this warning
